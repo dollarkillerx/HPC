@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">Logo</div>
+        <ul class="nav">
+            <li>Name1</li>
+            <li>Name2</li>
+            <li>Name3</li>
+        </ul>
+    </div>
+    <div class="center">
+        <div class="left">Left</div>
+        <div class="right">Right</div>
+    </div>
+    <div class="footer"></div>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            height: calc(10vh);
+            background: cadetblue;
+        }
+        .center {
+            height: calc(85vh);
+            background: chocolate;
+        }
+        .footer {
+            height: calc(5vh);
+            background: cornflowerblue;
+        }
+        .left {
+            text-align: center;
+            width: 50%;
+            float: left;
+            font-size: 60px;
+            background: darkgreen;
+            height: 100%;
+            line-height: calc(85vh);
+            color: white;
+        }
+        .right {
+            color: white;
+            text-align: center;
+            font-size: 60px;
+            background:darksalmon;
+            height: 100%;
+            line-height: calc(85vh);
+        }
+        .nav {
+            display: block;
+            float: right;
+        }
+        .nav li {
+            float: left;
+            display: block;
+            margin-left: 30px;
+            height: calc(10vh);
+            background: grey;
+            line-height: calc(10vh);
+        }
+        .logo {
+            float: left;
+            height: calc(10vh);
+            background: grey;
+            line-height: calc(10vh);
+            margin-left: 45px;
+        }
+    </style>
+</body>
+</html>
